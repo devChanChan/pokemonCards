@@ -1,0 +1,72 @@
+
+  body {
+    background: lightblue;}
+
+  #banner {
+    height:120px;
+    width:100%;
+    position:fixed;
+    top:0px;
+    left:0px;
+    box-shadow: 0 1px 2px 0 #777;
+    background-image: url("http://eskipaper.com/images/pokemon-backgrounds-2.jpg");
+    background-position: 50%;
+  }
+
+  #space {
+    height: 120px;
+  }
+
+  .gen {
+    border: solid black;
+    background-color: white;
+    margin:10px;
+  }
+
+  td {
+    box-shadow: 1px 1px grey;
+  }
+
+  tr {
+    background-color: white;
+    text-align: center;
+  }
+
+  .type_GRASS {width: 50px; background-color: green;}
+  .type_POISON {width: 50px; background-color: brown;}
+  .type_FIRE {width: 50px; background-color: red;}
+  .type_FLYING {width: 50px; background-color: lightblue;}
+  .type_WATER {width: 50px; background-color: blue;}
+  .type_MOIST {width: 50px; background-color: lightblue;}
+  .type_NORMAL {width: 50px; background-color: orange;}
+  .type_ELECTRIC {width: 50px; background-color: yellow;}
+  .type_GROUND {width: 50px; background-color: grey;}
+  .type_FAIRY {width: 50px; background-color: pink;}
+  .type_BUG {width: 50px; background-color: purple;}
+
+  h2 {margin: auto;}
+
+  table {
+    margin: 10px;
+    box-shadow: 3px 3px grey;
+  }
+
+  .pokemon-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    width: 100%;
+  }
+
+  .id {border: 0px;}
+
+  footer {
+    width:100%;
+    text-align: center;
+  }
+  
+  .links {
+     font-size: 13px;
+     font-weight: 700;
+     text-align: center;
+  }
